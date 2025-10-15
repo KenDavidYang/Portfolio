@@ -56,18 +56,11 @@ body::after {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	cursor: default;
+	cursor: pointer;
 	width: 7vw;
-	background-color: green;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	word-break: break-all;
-}
-
-.blue-square {
-	width: 10vw;
-	height: 10vw;
-	background-color: blue;
-	z-index: 10;
+	user-select: none;
 }
 
 .draggable {
@@ -93,4 +86,12 @@ body::after {
         left: 5px;
 		width: 96.5%;
     }
+}
+
+/* testing */
+.blue-square {
+	width: 10vw;
+	height: 10vw;
+	background-color: blue;
+	z-index: 10;
 }

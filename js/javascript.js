@@ -38,7 +38,10 @@ draggable.forEach(draggable => {
     draggable.addEventListener("dblclick", () => {
         const link = draggable.getAttribute("link");
         if(link) {
-            window.location.href = link;
+            const modal = document.querySelector(link);
+            modal.style.display = "block";
+            console.log(modal);
+            console.log("here");
         }
     })
 
@@ -46,3 +49,9 @@ draggable.forEach(draggable => {
         viewportWidth = window.innerWidth;
     })
 })
+
+document.addEventListener("contextmenu", function(e){
+    if (e.target.nodeName === "IMG") {
+        e.preventDefault();
+    }
+}, false);

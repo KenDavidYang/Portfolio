@@ -10,8 +10,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-<!-- icons -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close_small,crop_square,minimize" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close_small,crop_square,minimize" />
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/modal.css">
 </head>
@@ -23,38 +23,39 @@
 		<div class="right-tnav">Links</div>
 	</div>
 
-	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 7.3vw; right: 3vw">
-		<img style=" top:5vw; right: 2vw; width: 100%" src="./img/folder-no-curve.svg" alt="folder">
-		<div style=" text-wrap: wrap;">Me</div>
+	<div class="container draggable" link="#this_pc_modal" style="top: 7.3vw; left: 3vw">
+		<img style="width: 100%" src="./img/this_pc.svg" alt="folder">
+		<div style=" text-wrap: wrap;">This PC</div>
 	</div>
 
-	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 7.3vw; right: 12vw">
-		<img style=" top:5vw; right: 2vw; width: 100%" src="./img/folder-no-curve.svg" alt="folder">
-		<div style=" text-wrap: wrap;">Web</div>
+	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 11.7vw; left: 12vw">
+		<img style="width: 100%" src="./img/folder-no-curve.svg" alt="folder">
+		<div style="text-wrap: wrap;">Web</div>
 	</div>
 
-	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 7.3vw; right: 21vw">
-		<img style=" top:5vw; right: 2vw; width: 100%" src="./img/folder-no-curve.svg" alt="folder">
-		<div style=" text-wrap: wrap;">3D Render</div>
+	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 11.7vw; left: 21vw">
+		<img style="width: 100%" src="./img/folder-no-curve.svg" alt="folder">
+		<div style="text-wrap: wrap;">3D Render</div>
 	</div>
 
-	<div class="modal">
+	<!-- This PC Modal -->
+	<div class="hidden modal" id="this_pc_modal">
 		<div class="modal-content">
 			<div class="modal-top-nav">
 				<div class="modal-left-tnav">About Me</div>
 				<div class="modal-middle-tnav"></div>
 				<div class="modal-right-tnav">
-					<div class="modal-right-icons"><span class="material-symbols-outlined">minimize</span></div>
+					<div class="modal-right-icons" onclick="closeModal()"><span class="material-symbols-outlined">minimize</span></div>
 					<div class="modal-right-icons"><span class="material-symbols-outlined">crop_square</span></div>
-					<div class="modal-right-icons"><span class="material-symbols-outlined">close_small</span></div>
+					<div class="modal-right-icons" onclick="closeModal()"><span class="material-symbols-outlined">close_small</span></div>
 				</div>
 			</div>
 			<div class="about-me-container">
 				<div class="about-me-content">	
 
 					<div class="about-me-os-container">
-						<img style="width: 15%;" src="./img/file-blender-no-curve.svg" alt="OS">
-						<h2 style="padding: 0; margin: 0">PINGUNG OS</h2>
+						<img style="width: 26%;" src="./img/os.svg" alt="OS" draggable="false">
+						<h2 style="padding: 0; margin: 0;">PINGUNG OS</h2>
 						<h4 style="padding: 0; margin: 0">Version 112.35813...</h3>
 					</div>
 					<div class="about-me-specs-container">
@@ -72,21 +73,23 @@
 							<p>Infinite</p>
 							<p>Needs an Upgrade</p>
 							<p>GITHUB</p>
-							<p>HTML, CSS, JS, MYSQL, PYTHON, DOCKER, GIT</p>
+							<p>HTML, CSS, JS, PHP, MYSQL, PYTHON, AWS, DOCKER, GIT, BLENDER, PHOTOSHOP</p>
 						</div>
 					</div>
-					<h3 class="about-me-link"><a style="text-decoration: none; color: black" href="https://youtube.com/markiplier" target="_blank">View Documentation</a></h3>
+					<div class="about-me-link">
+						<a href="./docs/CV.pdf" target="_blank">
+							View Documentation
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- <img style=" top:5vw; right: 2vw;" src="./img/folder-no-curve.svg" alt="folder" link="https://youtube.com/markiplier" class="folder draggable"> -->
-
+	<!-- Testing -->
 	<!-- <div class="draggable blue-square"> -->
 
-	</div>
-
 	<script src="./js/javascript.js"></script>
+	<script src="./js/modal.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 .modal {
     position: fixed;
-    background-color: green;
+    display: none;
+    font-size: 1.5rem;
     width: 100%;
     height: 100%;
     top: 0;
@@ -16,6 +17,8 @@
     width: 50%;
     z-index: 10002;
     border: solid 3px #13034b;
+    cursor: default;
+    user-select: none;
 }
 
 
@@ -49,8 +52,6 @@
     border: 3px solid #13034b;
     border-radius: 3px;
     background-color: yellow;
-    justify-content: center;
-    align-items: center;
 }
 .modal-right-icons:hover {
     cursor: pointer;
@@ -90,7 +91,20 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 10px 0;
+    font-weight: bold;
     border: 3px solid black;
     border-radius: 3px;
+}
+
+.about-me-link:hover {
+    background-color: #87f3db;
+}
+
+
+.about-me-link a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; color: black;
+    padding: 10px 0;
 }
