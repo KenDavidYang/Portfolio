@@ -1,4 +1,5 @@
-let closeModal = () => {
-    let modal = document.querySelector(".modal");
+let closeModal = (modalName) => {
+    let modal = document.querySelector(modalName);
+    if (modal == null) return;
     modal.style.display = "none";
 }

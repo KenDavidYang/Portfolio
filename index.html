@@ -28,7 +28,7 @@
 		<div style=" text-wrap: wrap;">This PC</div>
 	</div>
 
-	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 11.7vw; left: 12vw">
+	<div class="container draggable" link="#web_modal" style="top: 11.7vw; left: 12vw">
 		<img style="width: 100%" src="./img/folder-no-curve.svg" alt="folder">
 		<div style="text-wrap: wrap;">Web</div>
 	</div>
@@ -45,9 +45,9 @@
 				<div class="modal-left-tnav">About Me</div>
 				<div class="modal-middle-tnav"></div>
 				<div class="modal-right-tnav">
-					<div class="modal-right-icons" onclick="closeModal()"><span class="material-symbols-outlined">minimize</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#this_pc_modal')"><span class="material-symbols-outlined">minimize</span></div>
 					<div class="modal-right-icons"><span class="material-symbols-outlined">crop_square</span></div>
-					<div class="modal-right-icons" onclick="closeModal()"><span class="material-symbols-outlined">close_small</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#this_pc_modal')"><span class="material-symbols-outlined">close_small</span></div>
 				</div>
 			</div>
 			<div class="about-me-container">
@@ -85,6 +85,44 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Web Modal -->
+	 <div class="modal" id="web_modal">
+		<div class="modal-content modal-menu">
+			
+			<div class="modal-top-nav">
+				<div class="modal-left-tnav">Web</div>
+				<div class="modal-middle-tnav"></div>
+				<div class="modal-right-tnav">
+					<div class="modal-right-icons" onclick="closeModal('#web_modal')"><span class="material-symbols-outlined">minimize</span></div>
+					<div class="modal-right-icons"><span class="material-symbols-outlined">crop_square</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#web_modal')"><span class="material-symbols-outlined">close_small</span></div>
+				</div>
+			</div>
+
+			<div class="web-content">
+				<div class="web-content-item">
+					<img src="./img/folder-no-curve.svg" alt="">
+					<div>AVC 3D</div>
+				</div>
+
+				<div class="web-content-item">
+					<img src="./img/folder-no-curve.svg" alt="">
+					<div>Tech Accessory Store</div>
+				</div>
+
+				<div class="web-content-item">
+					<img src="./img/folder-no-curve.svg" alt="">
+					<div>Mock Clothing Store</div>
+				</div>
+
+				<div class="web-content-item">
+					<img src="./img/folder-no-curve.svg" alt="">
+					<div>Bet Maker</div>
+				</div>
+			</div>
+		</div>
+	 </div>
 
 	<!-- Testing -->
 	<!-- <div class="draggable blue-square"> -->
