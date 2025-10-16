@@ -10,6 +10,10 @@ draggable.forEach(draggable => {
     let offsetY = 0;
     let isDragging = false;
 
+    const dragHandle = draggable.querySelector(".drag-handle");
+    const dragInitiator = dragHandle || draggable;
+
+
     document.addEventListener("mousemove", (event) => {
         
         if (isDragging) {
@@ -21,17 +25,23 @@ draggable.forEach(draggable => {
         }
     });  
 
-    draggable.addEventListener("mousedown", (event) => {
+    dragInitiator.addEventListener("mousedown", (event) => {
         event.preventDefault(); 
 
         isDragging = true;
         offsetX = event.clientX - draggable.offsetLeft;
         offsetY = event.clientY - draggable.offsetTop;
+
+        if (dragHandle == dragInitiator) {
+            draggable.style.cursor = "move";
+        }
         console.log(isDragging);
     })
 
     document.addEventListener("mouseup", () => {
         isDragging = false;
+
+        draggable.style.cursor = "auto";
         console.log(isDragging);
     })
 
