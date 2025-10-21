@@ -36,28 +36,26 @@ draggable.forEach(draggable => {
             draggable.style.cursor = "move";
         }
         console.log(isDragging);
-    })
+    });
 
     document.addEventListener("mouseup", () => {
         isDragging = false;
 
         draggable.style.cursor = "auto";
         console.log(isDragging);
-    })
+    });
 
     draggable.addEventListener("dblclick", () => {
         const link = draggable.getAttribute("link");
         if(link) {
             const modal = document.querySelector(link);
             modal.style.display = "block";
-            console.log(modal);
-            console.log("here");
         }
-    })
+    });
 
     window.addEventListener('resize', () => {
         viewportWidth = window.innerWidth;
-    })
+    });
 })
 
 document.addEventListener("contextmenu", function(e){

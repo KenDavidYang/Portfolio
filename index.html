@@ -39,9 +39,9 @@
 	</div>
 
 	<!-- This PC Modal -->
-	<div class="hidden modal" id="this_pc_modal">
-		<div class="modal-content">
-			<div class="modal-top-nav">
+	<div class="modal" id="this_pc_modal">
+		<div class="modal-content draggable">
+			<div class="modal-top-nav drag-handle">
 				<div class="modal-left-tnav">About Me</div>
 				<div class="modal-middle-tnav"></div>
 				<div class="modal-right-tnav">
@@ -87,7 +87,7 @@
 	</div>
 
 	<!-- Web Modal -->
-	 <div class="modal" id="web_modal">
+	<div class="modal" id="web_modal">
 		<div class="modal-content modal-menu draggable">
 			
 			<div class="modal-top-nav drag-handle">
@@ -101,28 +101,50 @@
 			</div>
 
 			<div class="web-content">
-				<div class="web-content-item">
+				<div class="web-content-item menu-item" link="#menu_image_modal_1">
 					<img src="./img/folder-no-curve.svg" alt="">
 					<div>AVC 3D</div>
 				</div>
 
-				<div class="web-content-item">
+				<div class="web-content-item menu-item" link="#web_image_modal_2">
 					<img src="./img/folder-no-curve.svg" alt="">
 					<div>Tech Accessory Store</div>
 				</div>
 
-				<div class="web-content-item">
+				<div class="web-content-item menu-item" link="#web_image_modal_3">
 					<img src="./img/folder-no-curve.svg" alt="">
 					<div>Mock Clothing Store</div>
 				</div>
 
-				<div class="web-content-item">
+				<div class="web-content-item menu-item" link="#web_image_modal_4">
 					<img src="./img/folder-no-curve.svg" alt="">
 					<div>Bet Maker</div>
 				</div>
 			</div>
 		</div>
 	 </div>
+
+	<!-- web image modal -->
+	<div class="modal" id="menu_image_modal_1">
+		<div class="modal-content modal-menu-image draggable">
+			<div class="modal-top-nav drag-handle">
+				<div class="modal-left-tnav">Web</div>
+				<div class="modal-middle-tnav"></div>
+				<div class="modal-right-tnav">
+					<div class="modal-right-icons" onclick="closeModal('#menu_image_modal_1')"><span class="material-symbols-outlined">minimize</span></div>
+					<div class="modal-right-icons"><span class="material-symbols-outlined">crop_square</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#menu_image_modal_1')"><span class="material-symbols-outlined">close_small</span></div>
+				</div>
+			</div>
+
+			<div class="menu-image-content">
+				<img src="./img/os.svg" alt="">
+			</div>
+
+		</div>
+	</div>
+
+	<!-- web description modal -->
 
 	<!-- Testing -->
 	<!-- <div class="draggable blue-square"> -->
