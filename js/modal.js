@@ -8,9 +8,12 @@ const menuItems = document.querySelectorAll(".menu-item");
 
 menuItems.forEach(item => {
     item.addEventListener("click", () => {
-        let link = item.getAttribute("link");
-        if (link == null) return;
-        let modal = document.querySelector(link);
-        modal.style.display = "flex";
+        let image = item.getAttribute("image");
+        let text = item.getAttribute("text");
+        if (image == null && text == null) return;
+        let modal_image = document.querySelector(image);
+        let modal_text = document.querySelector(text);
+        modal_image.style.display = "flex";
+        modal_text.style.display = "flex";
     });
 });

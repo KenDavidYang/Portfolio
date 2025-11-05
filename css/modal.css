@@ -136,16 +136,105 @@
 }
 
 .modal-menu-image {
+    position: fixed;
     left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
     width: 30%;
     height: 80%;
     padding: 0;
+    z-index: 400; 
 }
 
 .menu-image-content {
     display: flex;
     height: 100%;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: yellow;
+    border: 8px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.modal-menu-text {
+    position: fixed;
+    left: 72%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 30%;
+    height: 80%;
+    padding: 0;
+    z-index: 400; 
+}
+
+.menu-text-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 10%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 20px;
+}
+
+.menu-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-text-body {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.menu-text-footer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.menu-text-footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-text-footer-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    gap: 5px;
+    border-right: 3px solid black;
+    padding-right: 20px;
+}
+
+@media (max-width: 1000px) { /* Adjust '600px' to your specific breakpoint */
+    .menu-text-footer {
+        flex-direction: column; /* **Key change**: Stacks children vertically */
+    }
+
+    /* Optional: You might want to adjust the order */
+    .menu-text-footer-left {
+        order: 2; /* Moves the icons below the text */
+        border: none;
+    }
+
+    .menu-text-footer-right {
+        order: 1; /* Keeps the text on top */
+        border-bottom: 2px solid black;
+        padding: 10px;
+    }
 }
