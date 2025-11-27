@@ -28,8 +28,7 @@ const projects = {
             `This was made ALONG with, not only our thesis, but also a presentation and an exhibition of the project. Needless to say, it was a rough set of circumstances that made this developer stressed. Just the word "revision" is enough to make me shudder.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/AVC", icon: "./img/os.svg" },
-            { href: "https://github.com/KenDavidYang/AVC", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/AVC", icon: "./img/github.svg" }
         ],
         footerRight: "HTML, CSS, JS, PHP, MYSQL, PYTHON, AWS, DOCKER, GIT, BLENDER, PHOTOSHOP",
         image: "./img/this_pc.svg"
@@ -54,7 +53,7 @@ const projects = {
             `Just a Simple Mock Clothing Storefront that I used to test my general frontend knowledge`,
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/github.svg" }
         ],
         footerRight: "HTML, CSS, JS",
         image: "./img/this_pc.svg"
@@ -67,7 +66,7 @@ const projects = {
             `This was my way of learning about react and windows applications. I wanted to be able to make windows applications at the time and this was a fun project to learn about.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/github.svg" }
         ],
         footerRight: "HTML, CSS, TS, VITE, REACT, ELECTRON",
         image: "./img/this_pc.svg"
@@ -80,7 +79,7 @@ const projects = {
             `Had a bit of difficulty to find a good resource other than the discord api documentation. So I had to scrape the old forms and random sources from the internet to build the bot.`,
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/github.svg" }
         ],
         footerRight: "PYTHON",
         image: "./img/this_pc.svg"
@@ -93,7 +92,7 @@ const projects = {
             `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/github.svg" }
         ],
         footerRight: "PYTHON, PYINSTALLER",
         image: "./img/this_pc.svg"
@@ -106,7 +105,7 @@ const projects = {
             `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/github.svg" }
         ],
         footerRight: "PYTHON, PYINSTALLER",
         image: "./img/this_pc.svg"
@@ -119,7 +118,7 @@ const projects = {
             `This was my first project in college where I was also responsible for coordinating the team along with creating the bulk of the system.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/os.svg" }
+            { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/github.svg" }
         ],
         footerRight: "JAVA, MYSQL",
         image: "./img/this_pc.svg"
@@ -128,30 +127,30 @@ const projects = {
 
 const openProject = (project) => {
     const projectData = projects[project];
-    const projectModal = document.querySelector("#modal_menu_text");
-    const modalHeader = projectModal.querySelector(".menu-text-header");
-    const modalBody = projectModal.querySelector(".menu-text-body");
-    const modalLeftFooter = projectModal.querySelector(".menu-text-footer-left");
-    const modalRightFooter = projectModal.querySelector(".menu-text-footer-right");
+    const menuText = document.querySelector("#modal_menu_text");
+    const textMenuHeader = menuText.querySelector(".menu-text-header");
+    const textMenuBody = menuText.querySelector(".menu-text-body");
+    const textMenuLeftFooter = menuText.querySelector(".menu-text-footer-left");
+    const textMenuRightFooter = menuText.querySelector(".menu-text-footer-right");
 
     const modalImage = document.querySelector(".menu-image-content img");
     modalImage.src = projectData["image"];
 
-    modalHeader.innerHTML = projectData["header"];
-    modalBody.innerHTML = "";
+    textMenuHeader.innerHTML = projectData["header"];
+    textMenuBody.innerHTML = "";
     projectData["body"].forEach(paragraph => {
-        modalBody.innerHTML += `<p>&nbsp;&nbsp;&nbsp;&nbsp;${paragraph}</p>`;
+        textMenuBody.innerHTML += `<p>&nbsp;&nbsp;&nbsp;&nbsp;${paragraph}</p>`;
     });
 
-    modalLeftFooter.innerHTML = "";
+    textMenuLeftFooter.innerHTML = "";
     projectData["footerLeft"].forEach(item => {
         // tbf
-        modalLeftFooter.innerHTML +=
+        textMenuLeftFooter.innerHTML +=
         `
             <a href="${item["href"]}" target="_blank" style="text-decoration: none;">
                 <img src="${item["icon"]}" alt="">
             </a>
         `
     });
-    modalRightFooter.innerHTML = projectData["footerRight"];
+    textMenuRightFooter.innerHTML = projectData["footerRight"];
 }

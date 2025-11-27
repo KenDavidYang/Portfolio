@@ -117,7 +117,7 @@
     padding: 10px 0;
 }
 
-.web-content {
+.menu-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -127,7 +127,7 @@
     /* overflow-y: scroll; */
 }
 
-.web-content-item {
+.menu-content-item {
     display: flex;
     width: 100%;
     gap: 20px;
