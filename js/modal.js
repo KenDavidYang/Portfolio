@@ -24,7 +24,7 @@ const projects = {
     "avcommerce_3d": {
         header: "AVCommerce 3D",
         body: [
-            `My college capstone project. It is a website for a book printing company with 3D Models you can view. The 3D Models used for the site was created in Blender.`,
+            `My college capstone project, leaded by me. It is a website for a book printing company with 3D Models you can view. The 3D Models used for the site was created in Blender.`,
             `This was made ALONG with, not only our thesis, but also a presentation and an exhibition of the project. Needless to say, it was a rough set of circumstances that made this developer stressed. Just the word "revision" is enough to make me shudder.`
         ],
         footerLeft: [
@@ -32,6 +32,96 @@ const projects = {
             { href: "https://github.com/KenDavidYang/AVC", icon: "./img/os.svg" }
         ],
         footerRight: "HTML, CSS, JS, PHP, MYSQL, PYTHON, AWS, DOCKER, GIT, BLENDER, PHOTOSHOP",
+        image: "./img/this_pc.svg"
+    },
+
+    "casessory": {
+        header: "Tech Accessory Store",
+        body: [
+            `Casessory is a simple tech accessory webstore made in weebly. This was a group project that I lead, so that we can learn about weebly. It was mostly about designs and which direction to take the store in.`,
+            `I remember one night in particular where I had to teach one of the team members how to use photoshop to design the logo I made. Not particularly a "fun" experience but I look back at those times fondly`
+        ],
+        footerLeft: [
+            { href: "https://recyclableaccessories.weebly.com/", icon: "./img/os.svg" }
+        ],
+        footerRight: "WEEBLY, PHOTOSHOP",
+        image: "./img/this_pc.svg"
+    },
+
+    "mock_clothing": {
+        header: "Mock Clothing Store",
+        body: [
+            `Just a Simple Mock Clothing Storefront that I used to test my general frontend knowledge`,
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/os.svg" }
+        ],
+        footerRight: "HTML, CSS, JS",
+        image: "./img/this_pc.svg"
+    },
+
+    "bet_maker": {
+        header: "Bet Maker",
+        body: [
+            `Gotta be honest. Terrible name. The inspiration from this project came from my new year's resolution at the time: "Bets". I would bet from something as simple as "Can I ride the bus on time" to "Can I finish this project before this date"`,
+            `This was my way of learning about react and windows applications. I wanted to be able to make windows applications at the time and this was a fun project to learn about.`
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/os.svg" }
+        ],
+        footerRight: "HTML, CSS, TS, VITE, REACT, ELECTRON",
+        image: "./img/this_pc.svg"
+    },
+
+    "office_discord_bot": {
+        header: "Office Discord Bot",
+        body: [
+            `Since I had some free time around the office, and my section of the office were communicating with discord. I thought it would be fun to create a bot to show to them and play with.`,
+            `Had a bit of difficulty to find a good resource other than the discord api documentation. So I had to scrape the old forms and random sources from the internet to build the bot.`,
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/os.svg" }
+        ],
+        footerRight: "PYTHON",
+        image: "./img/this_pc.svg"
+    },
+
+    "auto_anki": {
+        header: "Auto Anki",
+        body: [
+            `Learning Japanese with Anki inspired me to make something that would help people like me who didn't understand how to make custom Anki decks.`,
+            `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/os.svg" }
+        ],
+        footerRight: "PYTHON, PYINSTALLER",
+        image: "./img/this_pc.svg"
+    },
+
+    "auto_anki": {
+        header: "Auto Anki",
+        body: [
+            `Learning Japanese with Anki inspired me to make something that would help people like me who didn't understand how to make custom Anki decks.`,
+            `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/os.svg" }
+        ],
+        footerRight: "PYTHON, PYINSTALLER",
+        image: "./img/this_pc.svg"
+    },
+
+    "school_attendance_system": {
+        header: "School Attendance System",
+        body: [
+            `A group project where I was the lead developer and was responsible for pretty much everything except documentation`,
+            `This was my first project in college where I was also responsible for coordinating the team along with creating the bulk of the system.`
+        ],
+        footerLeft: [
+            { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/os.svg" }
+        ],
+        footerRight: "JAVA, MYSQL",
         image: "./img/this_pc.svg"
     }
 };

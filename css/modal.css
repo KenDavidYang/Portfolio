@@ -221,6 +221,13 @@
     padding-right: 20px;
 }
 
+.menu-text-footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+}
+
 @media (max-width: 1000px) { /* Adjust '600px' to your specific breakpoint */
     .menu-text-footer {
         flex-direction: column; /* **Key change**: Stacks children vertically */
