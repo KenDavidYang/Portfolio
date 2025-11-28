@@ -28,12 +28,12 @@
 		<div style=" text-wrap: wrap;">This PC</div>
 	</div>
 
-	<div class="container draggable" link="#modal_menu" style="top: 11.7vw; left: 12vw">
+	<div class="container draggable" link="#menu_modal" style="top: 11.7vw; left: 12vw">
 		<img style="width: 100%" src="./img/folder-no-curve.svg" alt="folder">
 		<div style="text-wrap: wrap;">Web</div>
 	</div>
 
-	<div class="container draggable" link="https://youtube.com/markiplier" style="top: 11.7vw; left: 21vw">
+	<div class="container draggable" link="modal_" style="top: 11.7vw; left: 21vw">
 		<img style="width: 100%" src="./img/folder-no-curve.svg" alt="folder">
 		<div style="text-wrap: wrap;">3D Render</div>
 	</div>
@@ -87,16 +87,16 @@
 	</div>
 
 	<!-- Web Modal -->
-	<div class="modal" id="modal_menu">
-		<div class="modal-content modal-menu draggable">
+	<div class="modal" id="menu_modal">
+		<div class="modal-content menu-modal draggable">
 			
 			<div class="modal-top-nav drag-handle">
 				<div class="modal-left-tnav">Menu</div>
 				<div class="modal-middle-tnav"></div>
 				<div class="modal-right-tnav">
-					<div class="modal-right-icons" onclick="closeModal('#modal_menu')"><span class="material-symbols-outlined">minimize</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#menu_modal')"><span class="material-symbols-outlined">minimize</span></div>
 					<div class="modal-right-icons"><span class="material-symbols-outlined">crop_square</span></div>
-					<div class="modal-right-icons" onclick="closeModal('#modal_menu')"><span class="material-symbols-outlined">close_small</span></div>
+					<div class="modal-right-icons" onclick="closeModal('#menu_modal')"><span class="material-symbols-outlined">close_small</span></div>
 				</div>
 			</div>
 
@@ -141,7 +141,7 @@
 
 	<!-- web image modal -->
 	<div class="modal" id="modal_menu_image">
-		<div class="modal-content modal-menu-image draggable">
+		<div class="modal-content menu-modal-image draggable">
 			<div class="modal-top-nav drag-handle">
 				<div class="modal-left-tnav">Image</div>
 				<div class="modal-middle-tnav"></div>
@@ -161,7 +161,7 @@
 
 	<!-- web description modal -->
 	<div class="modal" id="modal_menu_text">
-		<div class="modal-content modal-menu-text draggable">
+		<div class="modal-content menu-modal-text draggable">
 			<div class="modal-top-nav drag-handle">
 				<!-- tbf? -->
 				<div class="modal-left-tnav">Description</div>
