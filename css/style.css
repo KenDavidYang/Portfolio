@@ -29,11 +29,21 @@ body::after {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 9999; /* Ensures the border is on top of other content */
+	z-index: 9999; 
 	border-radius: 2vw;
 	outline: 2vw solid #f5a7ff;
 	outline-offset: -1vw;
-	pointer-events: none; /* Prevents the border from blocking clicks */
+	pointer-events: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none; 
+    color: inherit;
+	cursor: pointer;
 }
 
 .top-nav {
@@ -59,8 +69,8 @@ body::after {
 	cursor: pointer;
 	width: 7vw;
 	font-size: 1.5vw;
-	word-break: break-all;
 	user-select: none;
+	text-align: center;
 }
 
 .draggable {

@@ -117,6 +117,8 @@
     padding: 10px 0;
 }
 
+
+/* menu */
 .menu-content {
     display: flex;
     flex-direction: column;
@@ -226,6 +228,31 @@
     justify-content: center;
     align-items: center;
     padding-right: 5%;
+}
+
+/* item modal */
+.item-modal {
+    width: 80vw;
+}
+.item-modal-container {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(11, auto);
+    gap: 10px;
+    padding: 1vw;
+}
+.item-modal-cell {
+    display: flex;
+    /* background-color: black;
+    color: white; */
+    justify-content: center;
+}
+.item-modal-cell .container {
+    width: 5vw;
+    font-size: 1vw;
+}
+.item-modal-cell a.container {
+    cursor: pointer; /* Sets the default cursor for non-dragging links */
 }
 
 @media (max-width: 1000px) { /* Adjust '600px' to your specific breakpoint */
