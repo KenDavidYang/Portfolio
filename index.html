@@ -11,7 +11,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 	<!-- icons -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close_small,crop_square,minimize" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<!-- &icon_names=close_small,crop_square,minimize,mail -->
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/modal.css">
 </head>
@@ -20,7 +21,12 @@
 	<div class="top-nav">
 		<div class="left-tnav">This is me</div>
 		<div class="middle-tnav"></div>
-		<div class="right-tnav">Links</div>
+		<div class="right-tnav">
+			<!-- tbf -->
+			<a href="mailto:seconenkacc@gmail.com">
+				<span class="material-symbols-outlined">mail</span>
+			</a>
+		</div>
 	</div>
 
 	<div class="container draggable" link="#this_pc_modal" style="top: 7.3vw; left: 3vw">
@@ -30,12 +36,12 @@
 
 	<div class="container draggable" link="#menu_modal" style="top: 11.7vw; left: 12vw">
 		<img style="width: 100%" src="./img/layout/folder-no-curve.svg" alt="folder">
-		<div style="text-wrap: wrap;">Web</div>
+		<div style="text-wrap: wrap;">Projects</div>
 	</div>
 
 	<div class="container draggable" link="#item_modal_blender" style="top: 11.7vw; left: 21vw">
 		<img style="width: 100%" src="./img/layout/folder-no-curve.svg" alt="folder">
-		<div style="text-wrap: wrap;">3D Render</div>
+		<div style="text-wrap: wrap;">3D Renders</div>
 	</div>
 
 	<!-- This PC Modal -->
@@ -86,7 +92,7 @@
 		</div>
 	</div>
 
-	<!-- Web Modal -->
+	<!-- Project Modal -->
 	<div class="modal" id="menu_modal">
 		<div class="modal-content menu-modal draggable">
 			
@@ -139,7 +145,7 @@
 		</div>
 	 </div>
 
-	<!-- web image modal -->
+	<!-- projects image modal -->
 	<div class="modal" id="modal_menu_image">
 		<div class="modal-content menu-modal-image draggable">
 			<div class="modal-top-nav drag-handle">
