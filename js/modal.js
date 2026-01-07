@@ -28,10 +28,10 @@ const projects = {
             `This was made ALONG with, not only our thesis, but also a presentation and an exhibition of the project. Needless to say, it was a rough set of circumstances that made this developer stressed. Just the word "revision" is enough to make me shudder.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/AVC", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/AVC", icon: "./img/layout/github.svg" }
         ],
         footerRight: "HTML, CSS, JS, PHP, MYSQL, PYTHON, AWS, DOCKER, GIT, BLENDER, PHOTOSHOP",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     },
 
     "casessory": {
@@ -41,10 +41,10 @@ const projects = {
             `I remember one night in particular where I had to teach one of the team members how to use photoshop to design the logo I made. Not particularly a "fun" experience but I look back at those times fondly`
         ],
         footerLeft: [
-            { href: "https://recyclableaccessories.weebly.com/", icon: "./img/os.svg" }
+            { href: "https://recyclableaccessories.weebly.com/", icon: "./img/layout/os.svg" }
         ],
         footerRight: "WEEBLY, PHOTOSHOP",
-        image: "./img/this_pc.svg"
+        image: "./img/menu/casessory/static.png"
     },
 
     "mock_clothing": {
@@ -53,10 +53,10 @@ const projects = {
             `Just a Simple Mock Clothing Storefront that I used to test my general frontend knowledge`,
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/layout/github.svg" }
         ],
         footerRight: "HTML, CSS, JS",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     },
 
     "bet_maker": {
@@ -66,10 +66,10 @@ const projects = {
             `This was my way of learning about react and windows applications. I wanted to be able to make windows applications at the time and this was a fun project to learn about.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/layout/github.svg" }
         ],
         footerRight: "HTML, CSS, TS, VITE, REACT, ELECTRON",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     },
 
     "office_discord_bot": {
@@ -79,10 +79,10 @@ const projects = {
             `Had a bit of difficulty to find a good resource other than the discord api documentation. So I had to scrape the old forms and random sources from the internet to build the bot.`,
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/layout/github.svg" }
         ],
         footerRight: "PYTHON",
-        image: "./img/this_pc.svg"
+        image: "./img/menu/office_discord_bot/slide1.png"
     },
 
     "auto_anki": {
@@ -92,10 +92,10 @@ const projects = {
             `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/layout/github.svg" }
         ],
         footerRight: "PYTHON, PYINSTALLER",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     },
 
     "auto_anki": {
@@ -105,10 +105,10 @@ const projects = {
             `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/layout/github.svg" }
         ],
         footerRight: "PYTHON, PYINSTALLER",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     },
 
     "school_attendance_system": {
@@ -118,10 +118,10 @@ const projects = {
             `This was my first project in college where I was also responsible for coordinating the team along with creating the bulk of the system.`
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/github.svg" }
+            { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/layout/github.svg" }
         ],
         footerRight: "JAVA, MYSQL",
-        image: "./img/this_pc.svg"
+        image: "./img/layout/this_pc.svg"
     }
 };
 
