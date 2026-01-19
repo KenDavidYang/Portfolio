@@ -41,7 +41,7 @@ const projects = {
             `I remember one night in particular where I had to teach one of the team members how to use photoshop to design the logo I made. Not particularly a "fun" experience but I look back at those times fondly`
         ],
         footerLeft: [
-            { href: "https://recyclableaccessories.weebly.com/", icon: "./img/layout/os.svg" }
+            { href: "https://recyclableaccessories.weebly.com/", icon: "./img/layout/web-link.svg" }
         ],
         footerRight: "WEEBLY, PHOTOSHOP",
         image: "./img/menu/casessory/static.png"
