@@ -25,7 +25,7 @@ const projects = {
         header: "AVCommerce 3D",
         body: [
             `My college capstone project, leaded by me. It is a website for a book printing company with 3D Models you can view. The 3D Models used for the site was created in Blender.`,
-            `This was made ALONG with, not only our thesis, but also a presentation and an exhibition of the project. Needless to say, it was a rough set of circumstances that made this developer stressed. Just the word "revision" is enough to make me shudder.`
+            `This was made ALONG with, not only our thesis, but also a presentation and an exhibition of the project. Needless to say, it was a rough set of circumstances that made this developer stressed.`
         ],
         footerLeft: [
             { href: "https://github.com/KenDavidYang/AVC", icon: "./img/layout/github.svg" }
@@ -37,7 +37,7 @@ const projects = {
     "casessory": {
         header: "Tech Accessory Store",
         body: [
-            `Casessory is a simple tech accessory webstore made in weebly. This was a group project that I lead, so that we can learn about weebly. It was mostly about designs and which direction to take the store in.`,
+            `Casessory is a simple tech accessory webstore made in weebly. This was a college group project that I lead, so that we can learn about weebly. It was mostly about designs and which direction to take the store in.`,
             `I remember one night in particular where I had to teach one of the team members how to use photoshop to design the logo I made. Not particularly a "fun" experience but I look back at those times fondly`
         ],
         footerLeft: [
@@ -50,7 +50,7 @@ const projects = {
     "mock_clothing": {
         header: "Mock Clothing Store",
         body: [
-            `Just a Simple Mock Clothing Storefront that I used to test my general frontend knowledge`,
+            `Just a Simple Mock Clothing Storefront that I used to test my vanilla frontend knowledge`,
         ],
         footerLeft: [
             { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/layout/github.svg" }
@@ -95,7 +95,7 @@ const projects = {
             { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/layout/github.svg" }
         ],
         footerRight: "PYTHON, PYINSTALLER",
-        image: "./img/layout/this_pc.svg"
+        image: "./img/menu/auto_anki/static.png"
     },
 
     "auto_anki": {
