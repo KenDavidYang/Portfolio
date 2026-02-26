@@ -98,19 +98,6 @@ const projects = {
         image: "./img/menu/auto_anki/static.png"
     },
 
-    "auto_anki": {
-        header: "Auto Anki",
-        body: [
-            `Learning Japanese with Anki inspired me to make something that would help people like me who didn't understand how to make custom Anki decks.`,
-            `The project is a simple script that allows user to give custom inputs that will convert it to an excel file that can be imported to Anki.`
-        ],
-        footerLeft: [
-            { href: "https://github.com/KenDavidYang/Auto-Anki", icon: "./img/layout/github.svg" }
-        ],
-        footerRight: "PYTHON, PYINSTALLER",
-        image: "./img/layout/this_pc.svg"
-    },
-
     "school_attendance_system": {
         header: "School Attendance System",
         body: [
