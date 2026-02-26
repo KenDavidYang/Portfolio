@@ -21,6 +21,17 @@ menuItems.forEach(item => {
 });
 
 const projects = {
+    "pfrespi": {
+        header: "PFRESPI PH Admin System",
+        body: [
+            `A website for PFRESPI PH where users can login and view information about the different PFRESPI programs.`,
+        ],
+        footerLeft: [
+            { href: "https://pfrespi.org/", icon: "./img/layout/web-link.svg" }
+        ],
+        footerRight: "PHP, CSS, JS, MYSQL, AWS, GIT",
+        image: "./img/menu/pfrespi/static.webp"
+    },
     "avcommerce_3d": {
         header: "AVCommerce 3D",
         body: [
@@ -132,7 +143,6 @@ const openProject = (project) => {
 
     textMenuLeftFooter.innerHTML = "";
     projectData["footerLeft"].forEach(item => {
-        // tbf
         textMenuLeftFooter.innerHTML +=
         `
             <a href="${item["href"]}" target="_blank" style="text-decoration: none;">
