@@ -24,7 +24,7 @@ const projects = {
     "pfrespi": {
         header: "PFRESPI PH Admin System",
         body: [
-            `A website for PFRESPI PH where users can login and view information about the different PFRESPI programs.`,
+            `A website for PFRESPI PH where users can login and view information about the different PFRESPI programs.`
         ],
         footerLeft: [
             { href: "https://pfrespi.org/", icon: "./img/layout/web-link.svg" }
