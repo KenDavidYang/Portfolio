@@ -44,19 +44,20 @@ const projects = {
             { href: "https://recyclableaccessories.weebly.com/", icon: "./img/layout/web-link.svg" }
         ],
         footerRight: "WEEBLY, PHOTOSHOP",
-        image: "./img/menu/casessory/static.png"
+        image: "./img/menu/casessory/static.webp"
     },
 
     "mock_clothing": {
         header: "Mock Clothing Store",
         body: [
-            `Just a Simple Mock Clothing Storefront that I used to test my vanilla frontend knowledge`,
+            `Just a Simple Mock Clothing Storefront that I used to test my stock vanilla frontend knowledge`,
         ],
         footerLeft: [
-            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/layout/github.svg" }
+            { href: "https://github.com/KenDavidYang/MockClothingStore", icon: "./img/layout/github.svg" },
+            { href: "https://kendavidyang.github.io/MockClothingStore/", icon: "./img/layout/web-link.svg" }
         ],
         footerRight: "HTML, CSS, JS",
-        image: "./img/layout/this_pc.svg"
+        image: "./img/menu/mock_clothing/static.webp"
     },
 
     "bet_maker": {
@@ -82,7 +83,7 @@ const projects = {
             { href: "https://github.com/KenDavidYang/discord-bot-office", icon: "./img/layout/github.svg" }
         ],
         footerRight: "PYTHON",
-        image: "./img/menu/office_discord_bot/slide1.png"
+        image: "./img/menu/office_discord_bot/slide1.webp"
     },
 
     "auto_anki": {
@@ -102,7 +103,7 @@ const projects = {
         header: "School Attendance System",
         body: [
             `A group project where I was the lead developer and was responsible for pretty much everything except documentation`,
-            `This was my first project in college where I was also responsible for coordinating the team along with creating the bulk of the system.`
+            `This was my first project in college where I was responsible for coordinating the team along with creating the bulk of the system.`
         ],
         footerLeft: [
             { href: "https://github.com/KenDavidYang/AttendanceSystem", icon: "./img/layout/github.svg" }

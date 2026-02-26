@@ -160,6 +160,13 @@
     overflow: hidden;
 }
 
+.menu-image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    object-position: center;
+}
+
 .menu-modal-text {
     position: fixed;
     left: 72%;
