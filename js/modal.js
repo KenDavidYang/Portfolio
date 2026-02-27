@@ -75,13 +75,13 @@ const projects = {
         header: "Bet Maker",
         body: [
             `Gotta be honest. Terrible name. The inspiration from this project came from my new year's resolution at the time: "Bets". I would bet from something as simple as "Can I ride the bus on time" to "Can I finish this project before this date"`,
-            `This was my way of learning about react and windows applications. I wanted to be able to make windows applications at the time and this was a fun project to learn about.`
+            `This was my way of learning about react and windows applications. I wanted to be able to make Windows applications at the time and this was a fun project to learn about.`
         ],
         footerLeft: [
             { href: "https://github.com/KenDavidYang/Bet-Maker", icon: "./img/layout/github.svg" }
         ],
         footerRight: "HTML, CSS, TS, VITE, REACT, ELECTRON",
-        image: "./img/layout/this_pc.svg"
+        image: "./img/menu/bet_maker/static.webp"
     },
 
     "office_discord_bot": {
